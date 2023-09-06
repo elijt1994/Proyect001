@@ -1,0 +1,57 @@
+/********** FUENTES **********/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+/********** COLORES GENERALES **********/
+:root {
+    --topbar: #1c292b;
+    --osdered: #b35656;
+    --osdeblue: #266c8d;
+    --osdelightblue: #1eb9d4;
+    --focus: #882828;
+    --fontColor1: #e43131;
+    --fontColor2: #fcfcfce3;
+}
+
+/********** SETEO **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/********** MODIFICACIONES DEL CAROUSEL **********/
+.titleCarousel {
+    color: var(--fontColor1);
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 10%;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+}
+.descriptionCarousel {
+    color: var(--fontColor2);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    -webkit-text-stroke: 1px rgb(46, 92, 192);
+    text-align: right;
+    margin-bottom: 10%;
+}
+.active {
+    background-color: #882828;
+}
+.carousel-inner .carousel-item:hover h5 {
+    transition: 0.5s;
+    text-shadow: 0 0 25px rgb(248, 44, 44);
+}
+
+/********** INDEX **********/
+html {
+    text-align: center;
+}
+
+
+/********** INICIO **********/

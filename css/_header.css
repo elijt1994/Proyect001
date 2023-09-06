@@ -1,0 +1,161 @@
+/****************************************************************/
+.header_top_bar {
+    background-color: var(--topbar);
+    height: 10%;
+    padding: 1%;
+    display: flex;
+}
+
+.header_contact {
+    text-align: left;
+    display: flex;
+    width: 70%;
+}
+
+.header_contact_content_1 {
+    width: 40%;
+    display: flex;
+    padding-left: 3%;
+}
+
+.header_contact_content_2 {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.header_links {
+    width: 30%;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    background-color: #e7e7e7c7;
+    flex-wrap: wrap;
+    padding: 5px;
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.12), 1 3px 2px rgba(0, 0, 0, 0.24);
+}
+
+.header_logo_content {
+    width: 17%;
+    align-items: flex-start;
+    margin-left: 8%;
+}
+
+.header_nav_menu {
+    width: auto;
+    margin-left: 15%;
+}
+
+.header_ul_menu {
+    display: flex;
+}
+
+.header_option_menu {
+    list-style: none;
+    margin: 5px;
+}
+
+
+/****************************************************************/
+/* BUTTOMS */
+
+.button_osdecoop {
+    background-color: var(--osdered);
+    padding: 3px;
+    border-radius: 2px;
+    border: 0;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 13px;
+    color: var(--topbar);
+    font-weight: bold;
+    outline: none;
+
+}
+
+
+/****************************************************************/
+/* TEXTS */
+
+.h4_header_contact_options {
+    color: rgb(219, 219, 219);
+    font-family: 'Rubik', sans-serif;
+    font-size: 80%;
+    padding-left: 1%;
+}
+
+.header_option_menu_sub {
+    text-decoration: none;
+    color: var(--osdeblue);
+    width: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /*'Archivo Black', sans-serif;*/
+    font-weight: bold;
+    font-size: medium;
+    padding-right: 1rem;
+}
+
+.header_option_link {
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 2%;
+    font-size: 80%;
+    font-weight: bolder;
+}
+
+
+/****************************************************************/
+/* IMAGES */
+
+.header_top_image {
+    width: 4%;
+    height: auto;
+    display: block;
+
+}
+
+.logo_header {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/****************************************************************/
+/* INTERACCIONES */
+
+.header_option_link:hover {
+    transition: all 0.2s;
+    color: var(--osdered);
+}
+
+.header_option_link:focus {
+    color: var(--focus);
+    border: none;
+}
+
+.header_option_menu_sub:hover {
+    transition: all 0.2s;
+    color: var(--osdered);
+}
+
+.header_option_menu_sub:focus {
+    color: var(--focus);
+    border: none;
+}
+
+.button_osdecoop:hover {
+    background-color: var(--osdelightblue);
+    color: var(--focus);
+    transition: all 0.2s;
+}
+
+.button_osdecoop:active {
+    background-color: var(--topbar);
+    color: #1eb9d4;
+}
+
