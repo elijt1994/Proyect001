@@ -21,6 +21,7 @@
     <main>
         <div id="main"></div>
     </main>
+    
     <footer>
         <?php include 'sections/_footer.php'; ?>
     </footer>

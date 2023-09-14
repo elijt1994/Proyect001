@@ -4,13 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
-/********** RESET **********/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 /********** COLORES GENERALES **********/
 :root {
     --topbar: #1c292b;
@@ -20,6 +13,13 @@
     --focus: #882828;
     --fontColor1: #e43131;
     --fontColor2: #fcfcfce3;
+}
+
+/********** SETEO **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /********** MODIFICACIONES DEL CAROUSEL **********/
@@ -51,7 +51,39 @@
 /********** INDEX **********/
 html {
     text-align: center;
+    overflow-x: hidden;
 }
 
-
 /********** INICIO **********/
+.bottom {
+    width: 100%;
+    display: flex;
+    margin: 2%;
+}
+.section{
+    width: 95%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around
+}
+
+.subSection{
+    width: calc(80% / 3);
+    background-color: var(--osdeblue);
+}
+
+.titleSubSection{
+    padding: 5%;
+    margin-top: 5%;
+    color: var(--fontColor1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.descriptionSection{
+    padding: 7%;
+    color: var(--fontColor2);
+    font-family: 'Times New Roman', Times, serif;
+    size: 5rem;
+    text-align: center;
+}
